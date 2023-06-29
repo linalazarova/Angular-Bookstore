@@ -1,0 +1,55 @@
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li a {
+  height: 480px;
+  width: 200px; 
+  border: 1px solid whitesmoke;
+  border-radius: 16px; 
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: #ff8383;
+}
+
+li a:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.content {
+  padding: 10px 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+.book-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genre {
+  flex: 9;
+}
+
+.genre span {
+  border-radius: 32px;
+  background-color: whitesmoke;
+  display: inline-block;
+  font-size: 11.2px; 
+  color: grey;
+  margin-right: 4.8px;
+}
+
+.price {
+  color: #414141;
+  margin-top: 11.2px;
+}

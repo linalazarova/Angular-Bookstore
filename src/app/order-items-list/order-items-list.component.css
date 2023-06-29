@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    margin-top: 16px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+  
+h3 {
+    margin-top: 8px;
+    margin-left: 4.8px;
+    color: grey;
+ }
+  
+a:hover {
+    opacity: 0.9;
+}
+  
+td {
+    height: 48px;
+}
+
+td.quantity,
+td.price {
+  text-align: right;
+}
+  
+td img {
+    width: 48px;
+    height: 70px;
+    object-fit: contain;
+}
+  
